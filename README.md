@@ -1,7 +1,12 @@
-## Hi there 👋
-I'm Adrika,
+## Welcome to my github!
+## I'm Adrika, 
+An Electronics and Communication Engeneering student interested in AI, machine learning, web development, and open source.
 
-I'm an Electronics and Communication Engeneering student interested in AI, machine learning, web development, and open source.
+
+[![GitHub Streak](https://streak-stats.demolab.com/?user=adrika4)](https://git.io/streak-stats)
+
+![Isocalendar](https://github.com/adrika4/adrika4/blob/master/metrics.plugin.isocalendar.svg)
+
 <!--
 **adrika4/adrika4** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

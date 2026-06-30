@@ -1,5 +1,7 @@
 ## Hi there 👋
+I'm Adrika,
 
+I'm an Electronics and Communication Engeneering student interested in AI, machine learning, web development, and open source.
 <!--
 **adrika4/adrika4** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

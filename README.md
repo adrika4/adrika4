@@ -32,7 +32,6 @@
 
 ![](https://github-readme-activity-graph.vercel.app/graph?username=adrika4&theme=react-dark&hide_border=true&area=true)
 
-![](https://github-readme-stats.shion.dev/api?username=adrika4&theme=shades-of-purple&hide_border=false&include_all_commits=false&count_private=false&hide=stars)
 
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=adrika4&theme=shades-of-purple&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 

@@ -24,10 +24,11 @@
 
 # 📊 GitHub Stats:
 
-### 🔥 Pull Request Breakdown
-![](https://github-contributor-stats.vercel.app/api?username=adrika4&limit=5&theme=react_dark&combine_all_yearly_contributions=true)
 
-![](https://streak-stats.demolab.com/?user=adrika4&theme=shades-of-purple&hide_border=false)
+## 🔥 Total Pull Requests
+![PRs](https://img.shields.io/badge/dynamic/json?style=for-the-badge&color=blueviolet&label=TOTAL%20PULL%20REQUESTS&query=%24.total_count&url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Dauthor%3Aadrika4%2Btype%3Apr)
+
+![](https://github-readme-stats.shion.dev/api?username=adrika4&theme=shades-of-purple&hide_border=false&include_all_commits=false&count_private=false&hide=stars)
 
 ![](https://github-readme-activity-graph.vercel.app/graph?username=adrika4&theme=react-dark&hide_border=true&area=true)
 

@@ -4,7 +4,7 @@ LINES = [
     ("Frontend", "React, HTML, CSS, JavaScript"),
     ("Backend", "Node.js, Express (learning)"),
     ("Building", "Subscription Tracker API"),
-    ("Open Source", "GSSoC, 50+ PRs merged"),
+    ("Open Source", "GSSoC, 30+ PRs merged"),
     ("Exploring", "AI, neural networks"),
     ("LinkedIn", "adrika-gaur-53596b379"),
     ("GitHub", "github.com/adrika4"),
@@ -33,4 +33,5 @@ for i, c in enumerate(["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353", "#
 o.append('</svg>')
 open("info-card.svg", "w", encoding="utf-8").write("\n".join(o))
 print("done: info-card.svg")
+
 

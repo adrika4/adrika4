@@ -1,18 +1,18 @@
-## Welcome to my github!
-## I'm Adrika, 
-An Electronics and Communication Engeneering student interested in AI, machine learning, web development, and open source.
+<div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=adrika4)](https://git.io/streak-stats)
+<h3><code>adrika@github ~ $ ./contributions.sh</code></h3>
+<img src="./contrib-heatmap.svg" width="860" />
 
-##  My Open Source Contributions
+<br><br>
 
-<!--Start Count Merged PRs-->
-<span><img src="https://img.shields.io/badge/Total_Merged_PRs-0-1877F2?style=for-the-badge"></span>
-<!--Finish Count Merged PRs-->
+<h3><code>adrika@github ~ $ whoami</code></h3>
+<table>
+  <tr>
+    <td valign="top"><img src="./ascii.svg" width="370" /></td>
+    <td valign="top"><img src="./info-card.svg" width="490" /></td>
+  </tr>
+</table>
 
-### Recently Merged Pull Requests
+<a href="https://www.linkedin.com/in/adrika-gaur-53596b379/">LinkedIn</a> · <a href="https://github.com/adrika4">GitHub</a>
 
-<!--Start Merged PRs-->
-Updating...
-<!--Finish Merged PRs-->
-
+</div>

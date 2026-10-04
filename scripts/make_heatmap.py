@@ -1,4 +1,4 @@
-import json, re, requests
+import json, os, re, requests
 from datetime import date
 from bs4 import BeautifulSoup
 
@@ -15,6 +15,19 @@ for td in soup.select("td[data-date]"):
     cnt = int(m.group(1)) if m else (1 if lvl else 0)
     days.append({"date": td["data-date"], "level": lvl, "count": cnt})
 days.sort(key=lambda d: d["date"])
+
+def count(q):
+    h = {"Accept": "application/vnd.github+json", "User-Agent": "profile-art"}
+    if os.environ.get("GITHUB_TOKEN"):
+        h["Authorization"] = "Bearer " + os.environ["GITHUB_TOKEN"]
+    try:
+        r = requests.get("https://api.github.com/search/issues", params={"q": q, "per_page": 1}, headers=h, timeout=30)
+        return r.json()["total_count"]
+    except Exception:
+        return 0
+
+prs = count(f"author:{USER} type:pr")
+merged = count(f"author:{USER} type:pr is:merged")
 
 total = sum(d["count"] for d in days)
 best = run = 0
@@ -49,7 +62,7 @@ for i, d in enumerate(days):
     fill = "#69f0a0" if d["count"] >= 10 else PAL[d["level"]]
     o.append(f'<rect class="b" x="{x0 + col*P:.1f}" y="{y0 + row*P:.1f}" width="{C}" height="{C}" rx="3" fill="{fill}" style="animation-delay:{(col+row)*0.025:.2f}s"/>')
 fy = y0 + 7 * P + 38
-o.append(f'<text x="{x0:.0f}" y="{fy:.0f}" font-size="14" fill="#8b949e">{total} contributions in the last year  |  current streak: {cur}  |  longest: {best}</text>')
+o.append(f'<text x="{x0:.0f}" y="{fy:.0f}" font-size="14" fill="#8b949e">{total} contributions | {prs} PRs ({merged} merged) | streak {cur} | best {best}</text>')
 lx = W - x0 - 190
 o.append(f'<text x="{lx:.0f}" y="{fy:.0f}" font-size="12" fill="#8b949e">Less</text>')
 for i, c in enumerate(PAL + ["#69f0a0"]):

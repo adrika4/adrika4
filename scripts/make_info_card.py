@@ -10,7 +10,7 @@ LINES = [
     ("GitHub", "github.com/adrika4"),
 ]
 
-W, H = 620, 500
+W, H = 620, 530
 o = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" font-family="Consolas,Menlo,monospace">']
 o.append('<style>.l{opacity:0;animation:in .5s forwards}@keyframes in{from{opacity:0;transform:translateX(-8px)}to{opacity:1;transform:none}}</style>')
 o.append(f'<rect width="{W}" height="{H}" rx="8" fill="#0d1117"/>')
@@ -33,3 +33,4 @@ for i, c in enumerate(["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353", "#
 o.append('</svg>')
 open("info-card.svg", "w", encoding="utf-8").write("\n".join(o))
 print("done: info-card.svg")
+

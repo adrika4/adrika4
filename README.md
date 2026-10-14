@@ -1,7 +1,6 @@
 <div align="center">
 
-<h3><code>adrika@github ~ $ ./contributions.sh</code></h3>
-<img src="./contrib-heatmap.svg" width="860" />
+
 
 <br><br>
 
@@ -13,6 +12,6 @@
   </tr>
 </table>
 
-<a href="https://www.linkedin.com/in/adrika-gaur-53596b379/">LinkedIn</a> · <a href="https://github.com/adrika4">GitHub</a>
+<a href="https://www.linkedin.com/in/adrika-gaur-53596b379/">LinkedIn</a> Â· <a href="https://github.com/adrika4">GitHub</a>
 
 </div>
